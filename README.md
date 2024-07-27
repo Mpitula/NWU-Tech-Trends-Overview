@@ -30,6 +30,6 @@ Build directories (bin/, obj/), Visual Studio files (*.suo, *.user), Eclipse fil
 1. **Environment Variables**: Store sensitive data such as API keys, database credentials, and secret keys in environment factors. Utilize a `.env` file to oversee these factors locally
 2. **Secret Management Tools**: For production environments, utilize secret management tools given by cloud administrations (e.g., AWS Secrets Manager, Azure Key Vault) to store and get to touchy data safely. This lets you dynamically oversee and recover privileged insights without hardcoding them into your codebase.
 3. **Encryption**: Encrypt sensitive data before storing it in configuration files or databases. Utilize strong encryption algorithms to protect the information and ensure that only authorized users and systems can decrypt it.
-4. **Access Control**:
-5. **Version Control Best Practices**:
+4. **Access Control**:Restrict access to sensitive data to only those who need it. Utilize GitHub's built-in get-to-control features to limit who can see and alter your repositories. Make sure this repository is private and only shared with authorized clients.
+5. **Version Control Best Practices**: Never commit sensitive data directly into your version control system. Utilize placeholders or environment variables to handle sensitive information, and guarantee your `.gitignore` file is accurately configured to exclude files that contain sensitive data.
 
