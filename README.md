@@ -27,9 +27,9 @@ Each project will have a .gitignore file that specifies files and folders to exc
 Examples:
 Build directories (bin/, obj/), Visual Studio files (*.suo, *.user), Eclipse files (.project), and Configure files (appsettings.json) often contain sensitive information.
 # Storage of credentials and sensitive information 
-**Environment Variables**: Store sensitive data such as API keys, database credentials, and secret keys in environment factors. Utilize a `.env` file to oversee these factors locally
-**Secret Management Tools**: For production environments, utilize secret management tools given by cloud administrations (e.g., AWS Secrets Manager, Azure Key Vault) to store and get to touchy data safely. This lets you dynamically oversee and recover privileged insights without hardcoding them into your codebase.
-**Encryption**: Encrypt sensitive data before storing it in configuration files or databases. Utilize strong encryption algorithms to protect the information and ensure that only authorized users and systems can decrypt it.
-**Access Control**:
-**Version Control Best Practices**:
+1. **Environment Variables**: Store sensitive data such as API keys, database credentials, and secret keys in environment factors. Utilize a `.env` file to oversee these factors locally
+2. **Secret Management Tools**: For production environments, utilize secret management tools given by cloud administrations (e.g., AWS Secrets Manager, Azure Key Vault) to store and get to touchy data safely. This lets you dynamically oversee and recover privileged insights without hardcoding them into your codebase.
+3. **Encryption**: Encrypt sensitive data before storing it in configuration files or databases. Utilize strong encryption algorithms to protect the information and ensure that only authorized users and systems can decrypt it.
+4. **Access Control**:
+5. **Version Control Best Practices**:
 
