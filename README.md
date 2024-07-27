@@ -23,6 +23,7 @@ Each project will have a .gitignore file that specifies files and folders to exc
 2. File specifies which files and directories should be ignored when committing changes.
 4. Ensure that sensitive data such as passwords, API keys, and connection strings are not committed to the repository, protecting them from exposure.
 5. Prevent unnecessary files from being tracked by Git, keep the repository clean, and reduce clutter.
+
 Examples:
 Build directories (bin/, obj/), Visual Studio files (*.suo, *.user), Eclipse files (.project), and Configure files (appsettings.json) often contain sensitive information.
 # Storage of credentials and sensitive information 
