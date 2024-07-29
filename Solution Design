@@ -1,2 +1,5 @@
 # Detailed Solution Design
--Overview 
++ Overview:
+- Create a web API and a web application to store and manage telemetry information connected to projects and clients.
+- The web application will bolster CRUD operations for project and client data.
+- Guarantee robust documentation, planning, and reporting components to visualize the benefits of automation.
