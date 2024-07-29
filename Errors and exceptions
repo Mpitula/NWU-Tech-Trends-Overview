@@ -1,1 +1,29 @@
+## Business Exceptions
 
+**Definition:**
+- Business exceptions occur due to logical errors in the business processes.
+
+**Examples:**
+- Invalid input data (e.g., negative time saved).
+- Trying to delete a client that has ongoing projects.
+- Duplicate entries for a project.
+
+**Handling:**
+- Validate inputs on the client side before sending data to the API.
+- Use backend validation to ensure data integrity.
+- Return informative error messages to the user.
+
+## Application Errors
+
+**Definition:**
+- Application errors occur due to issues within the application code or infrastructure.
+
+**Examples:**
+- Database connection failures.
+- Unhandled exceptions in the API.
+- Service downtime.
+
+**Handling:**
+- Implement logging to capture error details.
+- Use try-catch blocks to handle exceptions gracefully.
+- Set up monitoring and alerting for application health.
