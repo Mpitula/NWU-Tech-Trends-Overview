@@ -1,5 +1,85 @@
-# Detailed Solution Design
-+ Overview:
-- Create a web API and a web application to store and manage telemetry information connected to projects and clients.
-- The web application will bolster CRUD operations for project and client data.
-- Guarantee robust documentation, planning, and reporting components to visualize the benefits of automation.
+# Solution Design
+
+## Detailed Solution Design
+
+**Overview:**
+- Develop a web API and a web application to store and manage telemetry data linked to projects and clients.
+- The web application will support CRUD operations for project and client information.
+- Ensure robust documentation, planning, and reporting components to visualize the benefits of automation.
+
+**Architecture:**
+- The solution will be cloud-hosted or on-premise.
+- Follows industry standards for reusability and scalability.
+- Key components include:
+  - Front-end: Web application for user interactions.
+  - Back-end: Web API for data storage and processing.
+  - Database: Secure and scalable storage for telemetry data.
+  - Reporting Tool: For visualizing time and cost savings.
+
+**Modules:**
+- **Front-end:** HTML, CSS, JavaScript (React.js or Angular)
+- **Back-end:** Web API (Node.js, Express)
+- **Database:** PostgreSQL or MySQL
+- **Reporting:** Power BI or Tableau
+
+**Technologies:**
+- **Frontend:** React.js, Angular
+- **Backend:** Node.js, Express
+- **Database:** PostgreSQL, MySQL
+- **Reporting:** Power BI, Tableau
+
+## Data Design
+
+**Data Model:**
+- **Entities:**
+  - Client: id, name, contact_info, etc.
+  - Project: id, client_id, name, start_date, end_date, etc.
+  - TelemetryData: id, project_id, time_saved, cost_saved, date_recorded, etc.
+
+**Database Schema:**
+- **Client Table:**
+  - id (Primary Key)
+  - name (VARCHAR)
+  - contact_info (VARCHAR)
+  
+- **Project Table:**
+  - id (Primary Key)
+  - client_id (Foreign Key)
+  - name (VARCHAR)
+  - start_date (DATE)
+  - end_date (DATE)
+  
+- **TelemetryData Table:**
+  - id (Primary Key)
+  - project_id (Foreign Key)
+  - time_saved (FLOAT)
+  - cost_saved (FLOAT)
+  - date_recorded (DATE)
+
+**Data Flow:**
+1. User inputs project and client data through the web application.
+2. Data is sent to the web API and stored in the database.
+3. Telemetry data is recorded and linked to specific projects.
+4. The reporting tool retrieves data and visualizes time and cost savings.
+
+## Technical Assumptions
+
+- Users have access to the internet and modern web browsers.
+- The solution will handle a moderate number of concurrent users.
+- The database will scale as data grows.
+- Users will need to log in to access the web application.
+
+## Technical Caveats
+
+- Scalability might be limited by the database performance.
+- Internet connectivity issues can affect the usability of the web application.
+- Initial setup and configuration of the cloud-hosted solution may require additional time.
+
+## Wireframes
+
+- **Login Page:** A simple form for user authentication.
+- **Dashboard:** Overview of clients and projects with key metrics.
+- **Client Management:** CRUD operations for client data.
+- **Project Management:** CRUD operations for project data.
+- **Telemetry Data Entry:** Form to enter time and cost savings data.
+- **Reporting Page:** Visual representation of time and cost savings.
