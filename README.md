@@ -9,7 +9,7 @@ Development of a comprehensive solution for NWU Tech Trends to measure and repor
 # Documentation
 + **Lean Document**
 + **Solution Design**
-+ **Errors & Expectations**
++ **Errors & Expectations** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Errors%20%26%20Expectations.docx?d=wa713fb4ae5694d4098e7741f2519e646&csf=1&web=1&e=XQTDeh
 + **Environmental Detail:** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Environmental%20details.docx?d=w0cbbf1116a124d89b309d0500c7986eb&csf=1&web=1&e=gF8WNj
 # Branching Strategy
 The branching strategy will follow a basic workflow to guarantee steadiness and clarity:
