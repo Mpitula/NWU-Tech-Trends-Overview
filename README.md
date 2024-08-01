@@ -11,8 +11,6 @@ Development of a comprehensive solution for NWU Tech Trends to measure and repor
 + **Solution Design**
 + **Errors & Expectations**
 + **Environmental Detail:** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Environmental%20details.docx?d=w0cbbf1116a124d89b309d0500c7986eb&csf=1&web=1&e=gF8WNj
-
-https://github.com/Mpitula/CMPG-323-Overview-37460366/blob/main/README.md
 # Branching Strategy
 The branching strategy will follow a basic workflow to guarantee steadiness and clarity:
 In each project, the git-flow branching strategy will be used. Gitflow is a branching model that uses different branches to move code from development to production. It's an organized approach that allocates specific roles to various branches and characterizes how and when they should interact. Gitflow is well-suited for collaboration and versatile development and can offer assistance with
