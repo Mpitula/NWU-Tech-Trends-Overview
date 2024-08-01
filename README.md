@@ -7,7 +7,6 @@ Development of a comprehensive solution for NWU Tech Trends to measure and repor
 4. CMPG-323-Project-4-37460366: Used for project 4
 5. CMPG-323-Project-5-37460366: Used for project 5
 # Documentation
-+ **Lean Document**
 + **Solution Design** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Solution%20Design.docx?d=wa55e342833c94ab0bc683f2943019dfd&csf=1&web=1&e=CO6bMU
 + **Errors & Expectations** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Errors%20%26%20Expectations.docx?d=wa713fb4ae5694d4098e7741f2519e646&csf=1&web=1&e=XQTDeh
 + **Environmental Detail:** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Environmental%20details.docx?d=w0cbbf1116a124d89b309d0500c7986eb&csf=1&web=1&e=gF8WNj
