@@ -1,11 +1,11 @@
 # CMPG-323-Overview-37460366
 Development of a comprehensive solution for NWU Tech Trends to measure and report the time and cost savings achieved through automation solutions, including the creation of a web API, web application, RPA bot, and detailed reporting tools.
 # Repostitory created for each project 
-1. CMPG-323-Overview-37460366: Used for project 1
-2. CMPG-323-Project-2-37460366: Used for project 2
-3. CMPG-323-Project-3-37460366: Used for project 3
-4. CMPG-323-Project-4-37460366: Used for project 4
-5. CMPG-323-Project-5-37460366: Used for project 5
+1. [CMPG-323-Overview-37460366: Used for Project 1](https://github.com/Mpitula/NWU-Tech-Trends-Overview)
+2. [CMPG-323-Project-2-37460366: Used for Project 2](https://github.com/Mpitula/NWU-Tech-Trends)
+3. [CMPG-323-Project-3-37460366: Used for Project 3](https://github.com/Mpitula/Nwu-Tech-Trends-Telemetry-Portal-MVC)
+4. [CMPG-323-Project-4-37460366: Used for Project 4](https://github.com/Mpitula/NWU-Tech-Trends-Telementry-Portal-User-Acceptance-Testing)
+5. [CMPG-323-Project-5-37460366: Used for Project 5](https://github.com/Mpitula/NWU-Tech-Trends-Benefit-Realisation)
 # Documentation
 + **Solution Design** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Solution%20Design.docx?d=wa55e342833c94ab0bc683f2943019dfd&csf=1&web=1&e=CO6bMU
 + **Errors & Expectations** https://nwuac-my.sharepoint.com/:w:/r/personal/37460366_mynwu_ac_za/Documents/Errors%20%26%20Expectations.docx?d=wa713fb4ae5694d4098e7741f2519e646&csf=1&web=1&e=XQTDeh
